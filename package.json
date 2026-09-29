@@ -1,0 +1,39 @@
+{
+  "name": "sih26154-backend",
+  "version": "1.0.0",
+  "description": "Backend for Smart India Hackathon(SIH 2026) | [ NexGen6 ]",
+  "homepage": "https://github.com/NexGen6/SIH26154-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/NexGen6/SIH26154-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NexGen6/SIH26154-Backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.21.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.12.2",
+    "mongoose": "^9.9.4",
+    "multer": "^2.3.0",
+    "nodemon": "^3.1.14",
+    "pdf-parse": "^2.4.5"
+  }
+}
